@@ -15,6 +15,10 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../framework</relativePath>
 	</parent>
+	<properties>
+		<commons-io-version>2.4</commons-io-version>
+		<httpclient-version>4.4</httpclient-version>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -22,5 +26,21 @@
 			<artifactId>common</artifactId>
 			<version>${project-version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io-version}</version>
+		</dependency>
+		<!-- httpclient -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${httpclient-version}</version>
+		</dependency>
 	</dependencies>
+	
+	<build>
+		<finalName>AppServerFile</finalName>
+	</build>
 </project>

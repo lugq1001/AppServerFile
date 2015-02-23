@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/2002/xmlspec/dtd/2.10/xmlspec.dtd">
+
+<ServerConfig>
+
+	<!-- <name>FileServer</name> -->
+	<!-- <versionName>1.0</versionName> -->
+	<!-- <versionCode>1</versionCode> -->
+	<!-- <host>127.0.0.1</host> -->
+	<!-- <port>8080</port> -->
+	<!-- <url>/AppServerFile</url> -->
+	<magicKey>12345</magicKey>
+	<maxFileSize>30000000</maxFileSize>
+	<fileStorePath>C:\Users\Administrator\Desktop\AppServer\</fileStorePath>
+
+	<logicServer>
+		<host>127.0.0.1</host>
+		<port>8080</port>
+		<path>/AppServerLogic/main</path>
+		<tkey>12345</tkey>
+	</logicServer>
+
+</ServerConfig>
